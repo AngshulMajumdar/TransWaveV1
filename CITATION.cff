@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use TransWave, please cite this software repository."
+title: "TransWave"
+type: software
+authors:
+  - family-names: "Majumdar"
+    given-names: "Angshul"
+year: 2026
+version: 1.0.0

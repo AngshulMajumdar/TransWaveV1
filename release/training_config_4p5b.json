@@ -1,0 +1,35 @@
+{
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "adam_eps": 1e-08,
+  "architecture": "causal_transwave_blocklifting_meyer_byte_lm_g4_v2",
+  "base_lr": 0.0001,
+  "checkpoint_every_steps": 25,
+  "data_order_seed": 20261011,
+  "datasets": [
+    "arxiv",
+    "fineweb_edu",
+    "pg19",
+    "wikitext103"
+  ],
+  "fingerprint": "0bee15fa6b06e1e6cd9c5ec22c901da27365c7d83b7b7e8efa8b4b1786b21470",
+  "full_contexts_required": 137329,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_total_gib": 94.97076416015625,
+  "grad_clip": 1.0,
+  "min_lr": 1e-05,
+  "model_seed": 20261010,
+  "objective": "exact causal next-byte likelihood",
+  "parameter_count": 96130040,
+  "physical_batch_initial": 144,
+  "raw_bytes_per_context": 32768,
+  "release_name": "TransWave-Meyer-96M-4.5B",
+  "sampling": "all available non-overlapping 32768-byte contexts are shuffled without replacement per pass; passes repeat until 4.5B exposure",
+  "torch": "2.11.0+cu130",
+  "training_token_definition": "one raw byte = one model token",
+  "training_tokens": 4499996672,
+  "warmup_fraction": 0.01,
+  "weight_decay": 0.0
+}

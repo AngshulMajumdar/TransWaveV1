@@ -1,0 +1,38 @@
+{
+  "train": {
+    "arxiv": {
+      "full_contexts": 16640,
+      "raw_bytes": 545262781
+    },
+    "fineweb_edu": {
+      "full_contexts": 16640,
+      "raw_bytes": 545262465
+    },
+    "pg19": {
+      "full_contexts": 16646,
+      "raw_bytes": 545476793
+    },
+    "wikitext103": {
+      "full_contexts": 15948,
+      "raw_bytes": 522608696
+    }
+  },
+  "validation": {
+    "arxiv": {
+      "full_contexts": 512,
+      "raw_bytes": 16790635
+    },
+    "fineweb_edu": {
+      "full_contexts": 512,
+      "raw_bytes": 16778707
+    },
+    "pg19": {
+      "full_contexts": 520,
+      "raw_bytes": 17067667
+    },
+    "wikitext103": {
+      "full_contexts": 512,
+      "raw_bytes": 16777280
+    }
+  }
+}

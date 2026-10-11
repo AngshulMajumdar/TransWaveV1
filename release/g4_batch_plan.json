@@ -1,0 +1,92 @@
+{
+  "architecture": "causal_transwave_blocklifting_meyer_byte_lm_g4_v2",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_total_gib": 94.97076416015625,
+  "required_headroom_gib": 3.0,
+  "selected_batch": 144,
+  "selected_free_gib": 3.36529541015625,
+  "selected_peak_allocated_gib": 71.83429384231567,
+  "selected_peak_reserved_gib": 91.60546875,
+  "tested": {
+    "144": {
+      "batch": 144,
+      "fits": true,
+      "free": 3.36529541015625,
+      "fused": true,
+      "nll": 5.719539642333984,
+      "peak_alloc": 71.83429384231567,
+      "peak_reserved": 91.60546875,
+      "safe": true
+    },
+    "145": {
+      "batch": 145,
+      "fits": true,
+      "free": 2.72271728515625,
+      "fused": true,
+      "nll": 5.719541549682617,
+      "peak_alloc": 72.34464263916016,
+      "peak_reserved": 92.248046875,
+      "safe": false
+    },
+    "146": {
+      "batch": 146,
+      "fits": true,
+      "free": 2.09967041015625,
+      "fused": true,
+      "nll": 5.719558238983154,
+      "peak_alloc": 72.83637237548828,
+      "peak_reserved": 92.87109375,
+      "safe": false
+    },
+    "148": {
+      "batch": 148,
+      "fits": true,
+      "free": 0.95904541015625,
+      "fused": true,
+      "nll": 5.719598770141602,
+      "peak_alloc": 73.82056427001953,
+      "peak_reserved": 94.01171875,
+      "safe": false
+    },
+    "152": {
+      "batch": 152,
+      "fits": true,
+      "free": 1.49029541015625,
+      "fused": true,
+      "nll": 5.719516277313232,
+      "peak_alloc": 75.80451202392578,
+      "peak_reserved": 93.48046875,
+      "safe": false
+    },
+    "160": {
+      "batch": 160,
+      "fits": true,
+      "free": 1.38482666015625,
+      "fused": true,
+      "nll": 5.719547271728516,
+      "peak_alloc": 79.77473020553589,
+      "peak_reserved": 93.5859375,
+      "safe": false
+    },
+    "168": {
+      "batch": 168,
+      "fits": true,
+      "free": 2.92193603515625,
+      "fused": true,
+      "nll": 5.71961784362793,
+      "peak_alloc": 83.744215965271,
+      "peak_reserved": 92.048828125,
+      "safe": false
+    },
+    "176": {
+      "batch": 176,
+      "fits": true,
+      "free": 2.67584228515625,
+      "fused": true,
+      "nll": 5.719668388366699,
+      "peak_alloc": 87.7118706703186,
+      "peak_reserved": 92.294921875,
+      "safe": false
+    }
+  }
+}

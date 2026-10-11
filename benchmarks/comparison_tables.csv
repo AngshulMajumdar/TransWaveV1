@@ -1,0 +1,17 @@
+dataset,method,parameters,nll,perplexity,protocol
+arxiv,Mamba-2,126291296,2.7211784310237106,15.198221752233197,legacy tokenized 15% MLM baseline
+arxiv,Hyena,111416576,2.472997374829972,11.857936317313191,legacy tokenized 15% MLM baseline
+arxiv,RetNet,117711872,2.505527255439397,12.250016151006744,legacy tokenized 15% MLM baseline
+arxiv,TransWave,96130040,2.222876537591219,9.23385422866891,exact causal raw-byte next-byte LM
+fineweb_edu,Mamba-2,126291296,4.4171612921205305,82.86073376759876,legacy tokenized 15% MLM baseline
+fineweb_edu,Hyena,111416576,4.289595272982639,72.93694297376166,legacy tokenized 15% MLM baseline
+fineweb_edu,RetNet,117711872,4.249693422799242,70.08392291986513,legacy tokenized 15% MLM baseline
+fineweb_edu,TransWave,96130040,2.52323380112648,12.468853329412552,exact causal raw-byte next-byte LM
+pg19,Mamba-2,126291296,4.528376516382898,92.60809125354918,legacy tokenized 15% MLM baseline
+pg19,Hyena,111416576,4.272470440604249,71.6985440027885,legacy tokenized 15% MLM baseline
+pg19,RetNet,117711872,4.29858788946299,73.59579489052581,legacy tokenized 15% MLM baseline
+pg19,TransWave,96130040,2.452323345037607,11.61530174785846,exact causal raw-byte next-byte LM
+wikitext103,Mamba-2,126291296,4.0293636799830015,56.225122690821664,legacy tokenized 15% MLM baseline
+wikitext103,Hyena,111416576,3.756758002833714,42.80941276542401,legacy tokenized 15% MLM baseline
+wikitext103,RetNet,117711872,3.804996711635605,44.92510238266343,legacy tokenized 15% MLM baseline
+wikitext103,TransWave,96130040,2.486348230391741,12.017311442166523,exact causal raw-byte next-byte LM
